@@ -30,9 +30,8 @@ client.on("message", function (message) {
 })
 client.on("message", function (message) {
     if (message.content === "une blague stp") { // Lorsque "Salut" est envoyé
-        message.channel.send("qu'est ce qui est arrivé a la garre un train")
-        wait(5)
-        message.channel.send("un train")
+        message.channel.send("qu'est ce qui est arrivé a la garre... un train")
+
     }
 })
 client.login(process.env.TOKEN);
