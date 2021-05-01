@@ -10,8 +10,17 @@ client.on("ready", function () {
 // Répondre à un message
 client.on("message", function (message) {
     if (message.content === "pute") { // Lorsque "Salut" est envoyé
-        message.channel.send("@[NRGS]⚜Rondoudou_78⚜ est mega bg")
+        message.channel.send("@fonda de la team le goulag a un nouvelle arivant")
     }
 })
-
+client.on("message", function (message) {
+    if (message.content === "tg") { // Lorsque "Salut" est envoyé
+        message.channel.send("@fonda de la team on a besoins d'un warn svp")
+    }
+})
+client.on("message", function (message) {
+    if (message.content === "bonjour") { // Lorsque "Salut" est envoyé
+        message.channel.send("aurevoir 👋")
+    }
+})
 client.login(process.env.TOKEN);
