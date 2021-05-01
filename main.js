@@ -28,4 +28,11 @@ client.on("message", function (message) {
         message.channel.send("<@&835877915559723078> le goulag a un nouvelle arivant")
     }
 })
+client.on("message", function (message) {
+    if (message.content === "une blague stp") { // Lorsque "Salut" est envoyé
+        message.channel.send("qu'est ce qui est arrivé a la garre un train")
+        wait(5)
+        message.channel.send("un train")
+    }
+})
 client.login(process.env.TOKEN);
