@@ -1,0 +1,21 @@
+{
+  "name": "aebot78",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "Run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "None"
+  },
+  "keywords": [
+    "None"
+  ],
+  "author": "Rondoudou",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
