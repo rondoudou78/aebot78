@@ -23,4 +23,9 @@ client.on("message", function (message) {
         message.channel.send("aurevoir 👋")
     }
 })
+client.on("message", function (message) {
+    if (message.content === "fdp") { // Lorsque "Salut" est envoyé
+        message.channel.send("@fonda de la team le goulag a un nouvelle arivant")
+    }
+})
 client.login(process.env.TOKEN);
