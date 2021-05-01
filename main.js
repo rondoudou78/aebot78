@@ -10,12 +10,12 @@ client.on("ready", function () {
 // Répondre à un message
 client.on("message", function (message) {
     if (message.content === "pute") { // Lorsque "Salut" est envoyé
-        message.channel.send("<@&835877915559723078> le goulag a un nouvelle arivant")
+        message.channel.send("toi même et <@&835877915559723078> le goulag a un nouvelle arivant")
     }
 })
 client.on("message", function (message) {
     if (message.content === "tg") { // Lorsque "Salut" est envoyé
-        message.channel.send("<@&835877915559723078> on a besoins d'un warn svp")
+        message.channel.send("toi même et <@&835877915559723078> on a besoins d'un warn svp")
     }
 })
 client.on("message", function (message) {
@@ -25,7 +25,7 @@ client.on("message", function (message) {
 })
 client.on("message", function (message) {
     if (message.content === "fdp") { // Lorsque "Salut" est envoyé
-        message.channel.send("<@&835877915559723078> le goulag a un nouvelle arivant")
+        message.channel.send("toi même et <@&835877915559723078> le goulag a un nouvelle arivant")
     }
 })
 client.on("message", function (message) {
