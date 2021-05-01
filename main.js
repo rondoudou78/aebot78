@@ -48,4 +48,10 @@ client.on("message", function (message) {
         message.channel.send("pourquoi un daltonien ne bois pas d'eau ? parce-qu'il ne voit pas le vers")
     }
 })
+client.on("message", function (message) {
+    if (message.content === "ntm") { // Lorsque "Salut" est envoyé
+        message.channel.send("toi même et allez le démarrer <@&835877915559723078>")
+    }
+})
+
 client.login(process.env.TOKEN);
