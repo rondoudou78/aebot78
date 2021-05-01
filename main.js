@@ -10,7 +10,7 @@ client.on("ready", function () {
 // Répondre à un message
 client.on("message", function (message) {
     if (message.content === "pute") { // Lorsque "Salut" est envoyé
-        message.channel.send("@fonda de la team le goulag a un nouvelle arivant")
+        message.channel.send("<@&835877915559723078> le goulag a un nouvelle arivant")
     }
 })
 client.on("message", function (message) {
