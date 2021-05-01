@@ -63,4 +63,9 @@ client.on("message", function (message) {
         message.channel.send("bye 👋")
     }
 })
+client.on("message", function (message) {
+    if (message.content === "salut") { // Lorsque "Salut" est envoyé
+        message.channel.send("aurevoire ma canne a pêche 👋")
+    }
+})
 client.login(process.env.TOKEN);
