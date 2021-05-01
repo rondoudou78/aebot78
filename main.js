@@ -25,13 +25,27 @@ client.on("message", function (message) {
 })
 client.on("message", function (message) {
     if (message.content === "fdp") { // Lorsque "Salut" est envoyé
-        message.channel.send("toi même et <@&835877915559723078> le goulag a un nouvelle arivant")
+        message.channel.send("toi même et <@&835877915559723078> allez le démarrer")
     }
 })
 client.on("message", function (message) {
-    if (message.content === "une blague stp") { // Lorsque "Salut" est envoyé
+    if (message.content === "mblague1") { // Lorsque "Salut" est envoyé
         message.channel.send("qu'est ce qui est arrivé a la garre... un train")
-
+    }
+})
+client.on("message", function (message) {
+    if (message.content === "mblague2") { // Lorsque "Salut" est envoyé
+        message.channel.send("qu'est ce qui n'est pas un steak... une pastèque")
+    }
+})
+client.on("message", function (message) {
+    if (message.content === "mblague3") { // Lorsque "Salut" est envoyé
+        message.channel.send("qu'est ce qui est jaune et qui attends... johantan")
+    }
+})
+client.on("message", function (message) {
+    if (message.content === "mblague4") { // Lorsque "Salut" est envoyé
+        message.channel.send("pourquoi un daltonien ne bois pas d'eau ? parce-qu'il ne voit pas le vers")
     }
 })
 client.login(process.env.TOKEN);
