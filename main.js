@@ -53,5 +53,9 @@ client.on("message", function (message) {
         message.channel.send("toi même et allez le démarrer <@&835877915559723078>")
     }
 })
-
+client.on("message", function (message) {
+    if (message.content === "@DARK-DBZ") { // Lorsque "Salut" est envoyé
+        message.channel(#🦊général💬).send("oh non pas lui")
+    }
+})
 client.login(process.env.TOKEN);
