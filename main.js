@@ -53,4 +53,14 @@ client.on("message", function (message) {
         message.channel.send("toi même et allez le démarrer <@&835877915559723078>")
     }
 })
+client.on("message", function (message) {
+    if (message.content === "hey") { // Lorsque "Salut" est envoyé
+        message.channel.send("bye 👋")
+    }
+})
+client.on("message", function (message) {
+    if (message.content === "hi") { // Lorsque "Salut" est envoyé
+        message.channel.send("bye 👋")
+    }
+})
 client.login(process.env.TOKEN);
