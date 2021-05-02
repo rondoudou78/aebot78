@@ -48,5 +48,24 @@ client.on("message", function (message) {
         message.channel.send("pourquoi un daltonien ne bois pas d'eau ? parce-qu'il ne voit pas le vers")
     }
 })
-
+client.on("message", function (message) {
+    if (message.content === "ntm") { // Lorsque "Salut" est envoyé
+        message.channel.send("toi même et allez le démarrer <@&835877915559723078>")
+    }
+})
+client.on("message", function (message) {
+    if (message.content === "hey") { // Lorsque "Salut" est envoyé
+        message.channel.send("bye 👋")
+    }
+})
+client.on("message", function (message) {
+    if (message.content === "hi") { // Lorsque "Salut" est envoyé
+        message.channel.send("bye 👋")
+    }
+})
+client.on("message", function (message) {
+    if (message.content === "salut") { // Lorsque "Salut" est envoyé
+        message.channel.send("aurevoire ma canne a pêche 👋")
+    }
+})
 client.login(process.env.TOKEN);
