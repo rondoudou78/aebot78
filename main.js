@@ -53,4 +53,9 @@ client.on("message", function (message) {
         message.channel.send("toi même et allez le démarrer <@&835877915559723078>")
     }
 })
+client.on("message", function (message) {
+    if (message.content === "salut") { // Lorsque "Salut" est envoyé
+        message.channel.send("aurevoir ma canne a pêche 👋")
+    }
+})
 client.login(process.env.TOKEN);
